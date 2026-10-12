@@ -7,7 +7,7 @@
 }
  
 body {
-    background-color: #0A0C14;
+    background-color: #F8F9FA;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,19 +19,19 @@ body {
     flex-direction: column; /* aquí significa que los elementos están en el centro, no arriba ni abajo*/
     align-items: center; /* aquí significa que los elementos están en el centro, no arriba ni abajo*/
     justify-content: flex-start;
-    gap: 16px;                      /* reemplaza justify-content: space-evenly *//*esto significa que los elementos tienen un espaciado igual con margen */
-    background-color: #0F1117;
-    width: 420px;                   /* más compacto y elegante */
+    gap: 16px;                          /* reemplaza justify-content: space-evenly *//*esto significa que los elementos tienen un espaciado igual con margen */
+    background-color: #FFFFFF;
+    width: 420px;                     /* más compacto y elegante */
     padding: 32px 24px;
     border-radius: 16px;
-    border: 1px solid #2E3248;
-    box-shadow: 0 24px 64px rgba(0,0,0,0.5);
+    border: 1px solid #E2E8F0;
+    box-shadow: 0 20px 40px rgba(108, 99, 255, 0.08);
 }
 
 
 h1 {
    
-     color: #6C63FF;
+     color: #7C73E6;
     font-size: 22px;
     letter-spacing: -0.5px;
 }
@@ -39,7 +39,7 @@ h1 {
 
 
 h2 {
-    color: #7B7F9E;
+    color: #94A3B8;
     font-size: 12px;
     font-weight: 400;
     text-align: center;
@@ -50,11 +50,11 @@ h2 {
 article {
     display: flex;
     align-items: center;
-    background-color: #1C1F2E;
-    border: 1px solid #2E3248;
+    background-color: #F1F5F9;
+    border: 1px solid #E2E8F0;
     border-radius: 10px;
     width: 100%;
-    padding: 10px 12px;             /* padding uniforme y controlado */
+    padding: 10px 12px;            /* padding uniforme y controlado */
     gap: 8px;
 }
 
@@ -78,17 +78,18 @@ p {
 li {
     display: flex;
     justify-content: space-between;
-    background-color: #2E3248;
-    color: #E8E9F3;
+    background-color: #F8FAFC;
+    color: #334155;
     padding: 0px 0px 0px 12px;
     border-radius: 6px;
     font-size: 13px;
     align-items: center;
     height: 100%;
+    border: 1px solid #E2E8F0;
 }
 
 i {
-    background-color: red;
+    background-color: #FFB3BA;
     padding: 12px;
     cursor: pointer;
     height: 100%;
@@ -105,12 +106,12 @@ i {
 }
 
 #delete-task p {
-    color: #7B7F9E;
+    color: #94A3B8;
     font-size: 12px;
 }
 
-#button-delete {
-    background-color: #FF4F5E;
+#button-search {
+    background-color: #FF8B94;
     color: white;
     border: none;
     border-radius: 6px;
@@ -123,12 +124,12 @@ i {
     transition: background-color 0.2s;
 }
 
-#button-delete:hover {
-    background-color: #e0394a;
+#button-search:hover {
+    background-color: #FF707B;
 }
  
 #button-add {
-    background-color: #6C63FF;
+    background-color: #8C82FF;
     color: white;
     border: none;
     border-radius: 6px;
@@ -142,13 +143,13 @@ i {
 }
  
 #button-add:hover {
-    background-color: #574fd6;
+    background-color: #7A6FFF;
 }
 
 #button-all {
     background-color: transparent;
-    color: #7B7F9E;
-    border: 1px solid #2E3248;
+    color: #94A3B8;
+    border: 1px solid #CBD5E1;
     border-radius: 6px;
     height: 28px;
     padding: 0 12px;
@@ -160,17 +161,17 @@ i {
 }
  
 #button-all:hover {
-    border-color: #FF4F5E;
-    color: #FF4F5E;
+    border-color: #FF8B94;
+    color: #FF8B94;
 }
 
 input[type="text"] {
     height:  44px;
     width: 100%;
-    background-color: #0F1117;
-    border: 1px solid #2E3248;
+    background-color: #F8FAFC;
+    border: 1px solid #CBD5E1;
     border-radius: 6px;
-    color: #E8E9F3;
+    color: #334155;
     padding: 0 10px;
     font-size: 13px;
     outline: none;
@@ -178,9 +179,9 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-    border-color: #6C63FF;
+    border-color: #8C82FF;
 }
  
 input[type="text"]::placeholder {
-    color: #7B7F9E
+    color: #94A3B8;
 }

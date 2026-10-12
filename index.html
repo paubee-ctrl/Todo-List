@@ -3,29 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo-Miau-List</title>
+    <title>Todo Miau List</title>
     <link rel="stylesheet" href="todolist.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="icon" href="images/icon.jpg">
-
+    <link rel="icon" href="icon.png">
 
 </head>
 <body>
     
     <main id="container">
-        <h1><strong>notNotion</strong></h1>
+        <h1><strong>Todo Miau LIst</strong></h1>
     <h2>Manage and Search Your Peding Tasks In Clicks!</h2>
         <article id="search-task">
             <input id="search" type="text" placeholder="search task">
-            <button id="button-delete">x</button>
+            <button id="button-search">x</button>
         </article>
         <article id="list-task">
 
         <ul id="unorder-list">
-            <li>
-                <span class="letter">Spending time with my cat</span>
-                <i class="delete fa-solid fa-trash-can"></i>
-            </li>
         </ul>
 
             <input type="text" placeholder="add task" id="input-add" value="">
@@ -34,11 +29,15 @@
         </article>
 
         <article id="delete-task">
-            <p>You have <span id="contator">3</span> pending tasks.</p>
+            <p>You have <span id="contator">0</span> pending tasks.</p>
     
         <button id="button-all">Clear All</button>
         </article>
-    </main>
+
+         <h2 id="siError"></h2>
+    </main> 
+
+      
 
     <script src="index.js"></script>
 </body>
